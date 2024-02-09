@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Redressed&family=Roboto+Slab&family=Sofia&display=swap');
+body {
+    margin: 0px;
+}
+
+.container {
+    background-color: red;
+    height: 128vh;
+    background: url(./Images/bag2.jpg) no-repeat center/cover;
+}
+
+.navbar img {
+    width: 100px;
+    height: 67px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    /* position: relative; */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.nav {
+    justify-content: space-between;
+    display: flex;
+    width: 100vh;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.satalite {
+    display: flex;
+    justify-content: center;
+}
+
+.Soyzhead {
+    /* background-color: aqua; */
+    padding-top: 10%;
+    font-size: 35px
+}
+
+.readmoreBut {
+    display: block;
+    margin: auto;
+    height: 13%;
+    width: 35%;
+    background-color: black;
+    border-radius: 6px;
+    border: 0px;
+    padding: 3%;
+}
+
+.readmoreBut a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.spacecraft {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font: lighter;
+}
+
+.readmoreBut:hover {
+    background-color: rgb(175, 72, 72);
+    border-radius: 6px;
+}
+
+.gallerydiv {
+    width: 75%;
+    margin: -25px auto auto auto;
+}
+
+.featuredproHeading {
+    background-color: rgba(156, 100, 100, 0.3);
+    color: #f0e8e8;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    ;
+}
+
+.gallerydiv img {
+    width: 25%;
+    height: 15%;
+    justify-content: center;
+}
+
+.imgdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.imgdiv img {
+    border-radius: 10px;
+    margin: 2px;
+    border: 1px solid rgb(29, 179, 29);
+}
+
+.imgdiv img:hover {
+    opacity: 0.4;
+}
+
+.ourmissiondiv {
+    background-color: #33222a;
+    margin-top: 0px;
+    text-align: center;
+    height: 28vh;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.ourmissionhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.ourmissionpra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    word-spacing: -5px;
+    margin-top: -20px;
+}
+
+.featured {
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 100px 10px 100px;
+}
+
+.featuredvideo {
+    color: white;
+}
+
+.latestblog {
+    color: white;
+    width: 425px;
+    padding-top: 10px;
+}
+
+.featuredvideo img {
+    width: 425px;
+    height: 225px;
+}
+
+.latestblog img {
+    width: 100px;
+    height: 100px;
+}
+
+.hoverEffect img:hover {
+    /* backdrop-filter: blur(10px);
+    filter: blur(1px);
+    transition: 0.5s ease; */
+    /* -webkit-filter: brightness(80%); */
+    opacity: 0.8;
+}
+
+.latestblog h1 {
+    font-size: 25px;
+    font: lighter;
+}
+
+.latestblog button {
+    width: 125px;
+    height: 5vh;
+    border: 0px;
+    background-color: rgb(71, 4, 100);
+    color: white;
+}
+
+.latestblog button:hover {
+    background-color: #630031;
+}
+
+
+/* footer part  */
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: rgb(15, 14, 14);
+}
+
+footer a {
+    text-decoration: none;
+}
